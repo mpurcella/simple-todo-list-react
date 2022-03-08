@@ -120,7 +120,7 @@
 		align-items: center;
 
 		.todo-list-edit-input {
-			width: 65%;
+			width: 70%;
 			font-family: 'Roboto', sans-serif;
 			font-size: 16px;
 			color: #fff;
@@ -136,12 +136,16 @@
 			@media (max-width: 576px) {
 				width: 85%;
 			}
+
+			&::placeholder {
+				color: rgb(190, 190, 190);
+			}
 		}
 
 		.todo-list-edit-btns {
-			width: 35%;
+			width: 30%;
 			display: flex;
-			justify-content: center;
+			justify-content: space-between;
 
 			@media (max-width: 576px) {
 				width: 15%;
